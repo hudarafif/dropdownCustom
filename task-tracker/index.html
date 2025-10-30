@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <h1>Welcome to the Task Tracker</h1>
     <p>Track your tasks efficiently and stay organized!</p>
     
-    <div>
+    <div class="task-container">
         <h2>Add a Task</h2>
-        <input type="text" id ="taskInput" placeholder="Enter your task here">
-        <ul id="tasklist"></ul>
+        <div class="input-container">
+            <input type="text" id ="taskInput" placeholder="Enter your task here">
+            <button class="enter-btn" id="addTaskBtn">⏎</button>
+        </div>
+            <ul id="tasklist"></ul>
     </div>
 
 
