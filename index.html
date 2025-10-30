@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropdown-Custom</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="dropdown">
-        <label for=""></label>
-        <button>Select an Item</button>
+    <div class="dropdown" aria-placeholder="Select items" id="my-dropdown">
+        <button class="dropbtn" aria-placeholder="Select items">Select an Item</button>
         <div class="dropdown-content">
-            <a href="#">First Item</a>
-            <a href="#">Second Item</a>
-            <a href="#">Third Item</a>
-            <a href="#">Fourth Item</a>
-            <a href="#">Fifth Item</a>
+            <button class="dropdown-item" value="first">First Item</button>
+            <button class="dropdown-item" value="second">Second Item</button>
+            <button class="dropdown-item" value="third">Third Item</button>
+            <button class="dropdown-item" value="fourth">Fourth Item</button>
+            <button class="dropdown-item" value="fifth">Fifth Item</button>
         </div>
     </div>
+
+    <!-- <form action="#">
+        <label for="items">Choose an item:</label>
+        <select name="items" id="items">
+            <option value="#">Select an items</option>
+            <option value="first">First Item</option>
+            <option value="second">Second Item</option>
+            <option value="third">Third Item</option>
+            <option value="fourth">Fourth Item</option>
+            <option value="fifth">Fifth Item</option>
+        </select>
+    </form> -->
 
 
 </body>
